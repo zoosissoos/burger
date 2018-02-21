@@ -1,8 +1,12 @@
-# burger
+# tasty-burger
+---
 
-## Welcome to tasty burger.
+The purpose of this app is to "eat", "Make another" or "add" a digital burger demonstrating data persistence through a database. This also utilizes handlebars.js in a MVC structure.
 
-This app is a demonstration of using multiple technologies including:
+![](.\public\assets\img\readmecapture.PNG).
+
+
+### Prerequisites/Technologies Used
 
 * HTML
 * CSS
@@ -11,16 +15,23 @@ This app is a demonstration of using multiple technologies including:
 * Node.js
 * Express.js
 * Mysql
+* Handlebars.js
+
+## Installation
+
+-Clone then run 'npm install' once in the directory. Then run 'node server.js' to run locally.
 
 
+## Future Developments: 
 
+I would like to add a remove burger or update burger option. This would also include making the buttons visually appealing. 
 
----
-![](.\public\assets\img\readmecapture.PNG)
+## Deployment
 
-The purpose of this app is to "eat", "Make another" or "add" a digital burger.
+This has been deployed via [Heroku](https://salty-basin-77497.herokuapp.com/).
 
----
+## Authors
 
-Future developments:
-* I would like to add a delete feature as well as make the buttons a bit more visually appealing.
+* **Daniel Lewis** - *Initial work* - [zoosissoos](https://github.com/zoosissoos)
+
+Enjoy!
