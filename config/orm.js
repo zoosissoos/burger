@@ -34,6 +34,18 @@ let orm = {
       }
       cb(result);
     });
+  },
+
+  //deletes burger
+  delete: function(table, condition, val, cb) {
+    var queryString = `DELETE FROM ${table} WHERE ${condition} = ${val};`;
+    console.log(queryString);
+    connection.query(queryString, function(err, result) {
+      if (err) {
+        throw err;
+      }
+      cb(result);
+    });
   }
 }
 

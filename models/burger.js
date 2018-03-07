@@ -26,6 +26,12 @@ const burger = {
     orm.update("burgers", "devoured", "FALSE", objColVals2, condition2, function(res) {
       cb(res);
     });
+  },
+  //delete burger
+  deleteBurg: function(condition, val, cb) {
+    orm.delete("burgers", condition, val, function(res) {
+      cb(res);
+    });
   }
 }
 

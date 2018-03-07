@@ -24,7 +24,7 @@ The purpose of this app is to "eat", "Make another" or "add" a digital burger de
 
 ## Future Developments: 
 
-I would like to add a remove burger or update burger option. This would also include making the buttons visually appealing. 
+I would like to add an update burger option. This would also include making the buttons visually appealing. 
 
 ## Deployment
 

@@ -35,4 +35,11 @@ router.put("/make/:id", function(req, res) {
   })
 });
 
+//delete burger
+router.delete("/delete/:id", function(req, res) {
+  burger.deleteBurg("id", [req.params.id] ,function(){
+    res.redirect('/');
+  })
+});
+
 module.exports = router;

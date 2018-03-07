@@ -49,6 +49,11 @@
 					<button type="submit">Make another</button>
 					</form>
 				</div>
+				<div class = "col s12">
+					<form method="POST" action="/delete/{{this.id}}?_method=DELETE">
+					<button type="submit">Delete</button>
+					</form>
+				</div>
 			</div>
 			{{/if}}
 			{{/each}}
